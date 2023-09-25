@@ -16,6 +16,7 @@ print(empty_string)
 
 
 2.Palindrome Check 
+
 A palindrome is a word, phrase, number, or 
 other sequence of characters that reads the same forward and backward. 
 
@@ -25,7 +26,9 @@ if n==n[::-1]:
 else:
     print("No")
 
+
 3.Factorial 
+
 The factorial of a number is the product of 
 all positive integers from 1 to that number.
 
@@ -35,16 +38,16 @@ for i in range(1,n+1):
     product=product*i 
 print(product)
 
+
 4.Fibonacci 
+
 The Fibonacci sequence is a series of 
 numbers in which each number (after the first two) is 
 the sum of the two preceding ones. 
 It typically starts with 0 and 1. Here are the first few numbers in the Fibonacci sequence:
+Fibonacci series : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-
-#print the fibonacci of the number 
-
+#print the fibonacci of the given number 
 n=int(input())
 a=0 
 b=1
@@ -62,7 +65,8 @@ else:
     print(b)
 
     (or)
-
+    
+#printing the fibonacci series to the given limit
 n=int(input())
 a=0 
 b=1
@@ -77,7 +81,9 @@ else:
         b=c 
         print(c)
 
+
 5.anagram 
+
 An anagram is a word or phrase formed by rearranging the letters of another word or phrase, 
 typically using all the original letters exactly once. 
 In other words, if you can rearrange the characters of 
@@ -96,6 +102,7 @@ else:
 
     
 6. Prime numbers 
+
 #check the given number is prime or not 
 
 n=int(input())
@@ -111,7 +118,7 @@ else:
 
 (AND)
 
-return the prime numbers in certain limit 
+#return the prime numbers in certain limit 
 
 def is_prime(num):
     if num>1: 
@@ -121,15 +128,16 @@ def is_prime(num):
         else:
             return True
     return True
-
-
 m=int(input())
 n=int(input())
 for i in range(m,n+1):
     if is_prime(i):
         print(i,end=" ")
 
+
+
 7.Armstrong
+
 An Armstrong number is a number that is equal to the 
 sum of its own digits each raised to the power of the number of digits. 
 In other words, for an n-digit number, the sum of its digits each raised 
@@ -145,6 +153,7 @@ if n==str(count):
 else:
     print("NO")
 
+
 8.swap two numbers 
 
 m=int(input())
@@ -156,6 +165,7 @@ print(m)
 print(n)
 
 (OR)
+
 Without using 3rd variable 
 
 a=int(input())#10
@@ -166,7 +176,8 @@ a=a-b #15-10 5
 print(a)
 print(b)
 
-9.Perfect number 
+9.Perfect number
+
 A  perfect number is a positive integer that is equal to 
 the sum of its positive divisors,excluding the number itself.
 
