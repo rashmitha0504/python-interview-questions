@@ -85,8 +85,7 @@ else:
 5.anagram 
 
 An anagram is a word or phrase formed by rearranging the letters of another word or phrase, 
-typically using all the original letters exactly once. 
-In other words, if you can rearrange the characters of 
+typically using all the original letters exactly once. In other words, if you can rearrange the characters of 
 one word to form another word, they are considered anagrams of each other.
 
 input_1=input()
@@ -138,8 +137,7 @@ for i in range(m,n+1):
 
 7.Armstrong
 
-An Armstrong number is a number that is equal to the 
-sum of its own digits each raised to the power of the number of digits. 
+An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits. 
 In other words, for an n-digit number, the sum of its digits each raised 
 to the nth power is equal to the number itself.
 
