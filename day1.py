@@ -188,4 +188,42 @@ if count==n:
     print("Perfect")
 else:
     print("No")
+
+
+10. Leap Year or not 
+
+n=int(input())
+if ((n%4==0) and (n%100!=0)) or (n%400==0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+    
+11.count of each charcter in the word 
+
+n=input()
+n=n.lower()
+unique=[]
+for i in n:
+    if i not in unique:
+        unique.append(i)
+for j in unique:
+    count=n.count(j)
+    print(f"{j}:{count}")
+
+    
+12.vowels check 
+
+n=input()
+vowels=['a','e','i','o','u','A','E','I','O','U']
+vow_word=[]
+cons_word=[]
+for i in n:
+    if i in vowels:
+        vow_word.append(i)
+    else:
+        cons_word.append(i)
+print(*vow_word)
+print(*cons_word)
+
 '''
